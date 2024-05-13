@@ -1,0 +1,19 @@
+ul#naw {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+#naw a:link, #naw a:visited {
+   display: block;
+   width: 150px;
+   padding: 10px 0 16px 62px;
+   font: bold 80% Arial, Helvetica, sans-serif;
+   color: #FF9900;
+   background: url("papryka.png") top left no-repeat;
+   text-decoration: none;}
+#naw a:hover {
+   background-position: 0 -129px;
+   color: #B51032;}
+#naw a:active {
+   background-position: 0 -138px;
+   color: #006E01;}

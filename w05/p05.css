@@ -1,0 +1,15 @@
+section {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: repeat(4, 40px);
+  background-color: antiquewhite;
+  gap: 5px;
+  padding: 5px;
+}
+div {
+  border: 1px solid black;
+  background-color: burlywood;
+  padding: 10px;
+  text-align: center;
+  margin: 2px;
+}

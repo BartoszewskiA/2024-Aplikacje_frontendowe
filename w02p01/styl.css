@@ -1,0 +1,53 @@
+/* li:nth-of-type(odd) {
+  font-weight: 800;
+  color: blue;
+} */
+
+/* li:not(.wykluczony) {
+  font-weight: 800;
+  color: blue;
+}
+div {
+  border: 1px solid gray;
+  padding: 5px;
+}
+div:empty
+{
+  border: 1px solid rgb(235, 14, 14);
+} */
+
+/* article :first-child {
+  color: red;
+} */
+
+/* article p:first-of-type {
+  font-size: 1.3rem;
+} */
+
+/* article p:last-of-type {
+  font-size: 0.7rem;
+} */
+
+/* article p:only-of-type {
+  font-size: 2rem;
+} */
+
+article {
+    border:1px solid blue;
+    padding: 10px;
+}
+
+article:empty {
+    display: none;
+}
+
+/* p:first-letter {
+  border:1px solid blue;
+} */
+p::first-line
+{
+  font-weight: 700;
+}
+
+p::before {content: "\"";}
+p::after {content: "\"";}
